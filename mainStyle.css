@@ -81,12 +81,12 @@ body
 
 .navLinks a:hover
 {
-    color: #9460a9;
+    color: #6093a9;
 }
 
 .navLinks .active
 {
-    color: #d3bccc;
+    color: #bccad3;
     text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ body
 
 .crumbBar a:hover
 {
-    color: #4a306d;
+    color: #30626d;
 }
 
 /* Main */
@@ -191,7 +191,7 @@ footer
 
 .blogTitle:hover
 {
-    color: #4a306d;
+    color: #30626d;
 }
 
 /* Gallery */
@@ -232,13 +232,13 @@ details summary
 
 .detailsBox a:hover
 {
-    color: #4a306d;
+    color: #30626d;
 }
 
 /* Misc. */
 .heading
 {
-    color: #4a306d;
+    color: #30626d;
     font-size: 32px;
     line-height: 48px;
 
@@ -254,12 +254,12 @@ p, sub
 
 hr
 {
-    color: #9460a9;
+    color: #6093a9;
 }
 
 strong
 {
-    color: #7800ac;
+    color: #006dac;
 }
 
 /* grey style */
@@ -282,12 +282,12 @@ strong
 {
     color: #ffffff;
     
-    background-color: #9460a9;
+    background-color: #6093a9;
 
     border-style: solid;
     border-width: 3px;
-    border-top-color: #d3bccc;
-    border-left-color: #d3bccc;
-    border-bottom-color: #4a306d;
-    border-right-color: #4a306d;
+    border-top-color: #bccad3;
+    border-left-color: #bccad3;
+    border-bottom-color: #30626d;
+    border-right-color: #30626d;
 }
