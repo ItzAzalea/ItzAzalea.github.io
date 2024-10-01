@@ -78,12 +78,12 @@ body
 
 .blogTitle
 {
-    color: #9460a9;
+    color: #30626d;
 }
 
 .blogTitle:hover
 {
-    color: #4a306d;
+    color: #6093a9;
 }
 
 /* Button Shill */
@@ -101,7 +101,7 @@ body
 
 .buttonShill a:hover
 {
-    color: #4a306d;
+    color: #6093a9;
 }
 
 /* Youtube Embed */
@@ -116,7 +116,7 @@ body
 /* Misc. */
 .heading
 {
-    color: #4a306d;
+    color: #6093a9;
     font-size: 32px;
     line-height: 48px;
 
@@ -132,7 +132,7 @@ p, sub
 
 hr
 {
-    color: #9460a9;
+    color: #30626d;
 }
 
 strong
@@ -165,12 +165,12 @@ img
 {
     color: #ffffff;
     
-    background-color: #9460a9;
+    background-color: #30626d;
 
     border-style: solid;
     border-width: 3px;
-    border-top-color: #d3bccc;
-    border-left-color: #d3bccc;
-    border-bottom-color: #4a306d;
-    border-right-color: #4a306d;
+    border-top-color: #bccad3;
+    border-left-color: #bccad3;
+    border-bottom-color: #6093a9;
+    border-right-color: #6093a9;
 }
