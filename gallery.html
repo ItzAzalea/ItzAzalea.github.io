@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Backslash's Dwelling</title>
+
+		<link rel="stylesheet" href="mainStyle.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<div class="banner">
+					<img src="media/banner.png" alt="BACKSLASH">
+				</div>
+
+				<ul class="navLinks">
+					<li><a class="" href="/">HOME</a></li>
+					<li><a class="active" href="/gallery">GALLERY</a></li>
+					<li><a class="" href="/blog">BLOG</a></li>
+					<li><a class="" href="/about">ABOUT</a></li>
+				</ul>
+			</header>
+
+			<div class="crumbBar">
+				<a href="/gallery">gallery</a>
+			</div>
+
+			<div class="flex">
+				<script>
+					function resizeIframe(obj) {
+					  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+					}
+				</script>
+				<iframe src="/elements/sidebar.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+
+				<div class="main">
+					<h1 class="heading">welcome to the gallery!</h1>
+					<p>here, i'll put any of my art that i want to show off!</p>
+					<p>each work will be put into it's respective category.</p>
+					<sub>some works will be cropped, click on them to open the full file in a new tab.</sub>
+
+					<hr>
+
+					<details>
+						<summary>GRAFFITI</summary>
+						<div class="detailsBox">
+							<p>pieces, throwies, tags, and other related stuff.</p>
+							<hr>
+							<a href="media/gallery/throwie_ARK.png" target="_blank"><img src="media/gallery/throwie_ARK.png"></a>
+							<a href="media/gallery/G-STOP_magazine.png" target="_blank"><img src="media/gallery/G-STOP_magazine.png"></a>
+						</div>
+					</details>
+
+					<hr>
+
+					<details>
+						<summary>BUTTONS (88x31)</summary>
+						<div class="detailsBox">
+							<p>88x31 buttons i've made, feel free to add them to your website! you do not have to credit me at all.</p>
+							<p>PLEASE DO NOT <a href="https://simple.wikipedia.org/wiki/Hotlinking" target="_blank">HOTLINK</a></p>
+							<hr>
+							<a class="button" href="media/buttons/button_ATCQ.gif" target="_blank"><img src="media/buttons/button_ATCQ.gif"></a>
+						</div>
+					</details>
+
+					<hr>
+					
+				</div>
+			</div>
+
+			<footer>
+				<p><em>website is a work-in-progress, and will most likely be a work-in-progress for the foreseeable future. if you encounter any issues then submit an issue on <a href="https://github.com/Backslash127/backslash127.github.io/">github</a>.</em></p>
+			</footer>
+		</div>
+	</body>
+</html>
